@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9CB647A1537078300D12991 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CB64791537078300D12991 /* Cocoa.framework */; };
+		C9CB64841537078300D12991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9CB64821537078300D12991 /* InfoPlist.strings */; };
+		C9CB64861537078300D12991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CB64851537078300D12991 /* main.m */; };
+		C9CB648A1537078300D12991 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9CB64881537078300D12991 /* Credits.rtf */; };
+		C9CB648D1537078300D12991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CB648C1537078300D12991 /* AppDelegate.m */; };
+		C9CB64901537078300D12991 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CB648E1537078300D12991 /* MainMenu.xib */; };
+		C9CB64931537078300D12991 /* CustomCommandLauncher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9CB64911537078300D12991 /* CustomCommandLauncher.xcdatamodeld */; };
+		C9CB649B1537078300D12991 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CB649A1537078300D12991 /* SenTestingKit.framework */; };
+		C9CB649C1537078300D12991 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CB64791537078300D12991 /* Cocoa.framework */; };
+		C9CB64A41537078300D12991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9CB64A21537078300D12991 /* InfoPlist.strings */; };
+		C9CB64A71537078300D12991 /* CustomCommandLauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CB64A61537078300D12991 /* CustomCommandLauncherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9CB649D1537078300D12991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CB646C1537078200D12991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9CB64741537078200D12991;
+			remoteInfo = CustomCommandLauncher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9CB64751537078200D12991 /* CustomCommandLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCommandLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CB64791537078300D12991 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9CB647C1537078300D12991 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C9CB647D1537078300D12991 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9CB647E1537078300D12991 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9CB64811537078300D12991 /* CustomCommandLauncher-Info.plist */ = {isa = PBXFileReference; path = "CustomCommandLauncher-Info.plist"; sourceTree = "<group>"; };
+		C9CB64831537078300D12991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9CB64851537078300D12991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9CB64871537078300D12991 /* CustomCommandLauncher-Prefix.pch */ = {isa = PBXFileReference; path = "CustomCommandLauncher-Prefix.pch"; sourceTree = "<group>"; };
+		C9CB64891537078300D12991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C9CB648B1537078300D12991 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9CB648C1537078300D12991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9CB648F1537078300D12991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C9CB64921537078300D12991 /* CustomCommandLauncher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomCommandLauncher.xcdatamodel; sourceTree = "<group>"; };
+		C9CB64991537078300D12991 /* CustomCommandLauncherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCommandLauncherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CB649A1537078300D12991 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9CB64A11537078300D12991 /* CustomCommandLauncherTests-Info.plist */ = {isa = PBXFileReference; path = "CustomCommandLauncherTests-Info.plist"; sourceTree = "<group>"; };
+		C9CB64A31537078300D12991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9CB64A51537078300D12991 /* CustomCommandLauncherTests.h */ = {isa = PBXFileReference; path = CustomCommandLauncherTests.h; sourceTree = "<group>"; };
+		C9CB64A61537078300D12991 /* CustomCommandLauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCommandLauncherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9CB64721537078200D12991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CB647A1537078300D12991 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CB64951537078300D12991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CB649B1537078300D12991 /* SenTestingKit.framework in Frameworks */,
+				C9CB649C1537078300D12991 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9CB646A1537078200D12991 = {
+			isa = PBXGroup;
+			children = (
+				C9CB647F1537078300D12991 /* CustomCommandLauncher */,
+				C9CB649F1537078300D12991 /* CustomCommandLauncherTests */,
+				C9CB64781537078200D12991 /* Frameworks */,
+				C9CB64761537078200D12991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9CB64761537078200D12991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CB64751537078200D12991 /* CustomCommandLauncher.app */,
+				C9CB64991537078300D12991 /* CustomCommandLauncherTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9CB64781537078200D12991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CB64791537078300D12991 /* Cocoa.framework */,
+				C9CB649A1537078300D12991 /* SenTestingKit.framework */,
+				C9CB647B1537078300D12991 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CB647B1537078300D12991 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CB647C1537078300D12991 /* AppKit.framework */,
+				C9CB647D1537078300D12991 /* CoreData.framework */,
+				C9CB647E1537078300D12991 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C9CB647F1537078300D12991 /* CustomCommandLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				C9CB648B1537078300D12991 /* AppDelegate.h */,
+				C9CB648C1537078300D12991 /* AppDelegate.m */,
+				C9CB648E1537078300D12991 /* MainMenu.xib */,
+				C9CB64911537078300D12991 /* CustomCommandLauncher.xcdatamodeld */,
+				C9CB64801537078300D12991 /* Supporting Files */,
+			);
+			path = CustomCommandLauncher;
+			sourceTree = "<group>";
+		};
+		C9CB64801537078300D12991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9CB64811537078300D12991 /* CustomCommandLauncher-Info.plist */,
+				C9CB64821537078300D12991 /* InfoPlist.strings */,
+				C9CB64851537078300D12991 /* main.m */,
+				C9CB64871537078300D12991 /* CustomCommandLauncher-Prefix.pch */,
+				C9CB64881537078300D12991 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9CB649F1537078300D12991 /* CustomCommandLauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9CB64A51537078300D12991 /* CustomCommandLauncherTests.h */,
+				C9CB64A61537078300D12991 /* CustomCommandLauncherTests.m */,
+				C9CB64A01537078300D12991 /* Supporting Files */,
+			);
+			path = CustomCommandLauncherTests;
+			sourceTree = "<group>";
+		};
+		C9CB64A01537078300D12991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9CB64A11537078300D12991 /* CustomCommandLauncherTests-Info.plist */,
+				C9CB64A21537078300D12991 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9CB64741537078200D12991 /* CustomCommandLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CB64AA1537078300D12991 /* Build configuration list for PBXNativeTarget "CustomCommandLauncher" */;
+			buildPhases = (
+				C9CB64711537078200D12991 /* Sources */,
+				C9CB64721537078200D12991 /* Frameworks */,
+				C9CB64731537078200D12991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCommandLauncher;
+			productName = CustomCommandLauncher;
+			productReference = C9CB64751537078200D12991 /* CustomCommandLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9CB64981537078300D12991 /* CustomCommandLauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CB64AD1537078300D12991 /* Build configuration list for PBXNativeTarget "CustomCommandLauncherTests" */;
+			buildPhases = (
+				C9CB64941537078300D12991 /* Sources */,
+				C9CB64951537078300D12991 /* Frameworks */,
+				C9CB64961537078300D12991 /* Resources */,
+				C9CB64971537078300D12991 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9CB649E1537078300D12991 /* PBXTargetDependency */,
+			);
+			name = CustomCommandLauncherTests;
+			productName = CustomCommandLauncherTests;
+			productReference = C9CB64991537078300D12991 /* CustomCommandLauncherTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9CB646C1537078200D12991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C9CB646F1537078200D12991 /* Build configuration list for PBXProject "CustomCommandLauncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9CB646A1537078200D12991;
+			productRefGroup = C9CB64761537078200D12991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CB64741537078200D12991 /* CustomCommandLauncher */,
+				C9CB64981537078300D12991 /* CustomCommandLauncherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9CB64731537078200D12991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CB64841537078300D12991 /* InfoPlist.strings in Resources */,
+				C9CB648A1537078300D12991 /* Credits.rtf in Resources */,
+				C9CB64901537078300D12991 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CB64961537078300D12991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CB64A41537078300D12991 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9CB64971537078300D12991 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9CB64711537078200D12991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CB64861537078300D12991 /* main.m in Sources */,
+				C9CB648D1537078300D12991 /* AppDelegate.m in Sources */,
+				C9CB64931537078300D12991 /* CustomCommandLauncher.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CB64941537078300D12991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CB64A71537078300D12991 /* CustomCommandLauncherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9CB649E1537078300D12991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9CB64741537078200D12991 /* CustomCommandLauncher */;
+			targetProxy = C9CB649D1537078300D12991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9CB64821537078300D12991 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CB64831537078300D12991 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9CB64881537078300D12991 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CB64891537078300D12991 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C9CB648E1537078300D12991 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CB648F1537078300D12991 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C9CB64A21537078300D12991 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CB64A31537078300D12991 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9CB64A81537078300D12991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9CB64A91537078300D12991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9CB64AB1537078300D12991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCommandLauncher/CustomCommandLauncher-Prefix.pch";
+				INFOPLIST_FILE = "CustomCommandLauncher/CustomCommandLauncher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9CB64AC1537078300D12991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCommandLauncher/CustomCommandLauncher-Prefix.pch";
+				INFOPLIST_FILE = "CustomCommandLauncher/CustomCommandLauncher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9CB64AE1537078300D12991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomCommandLauncher.app/Contents/MacOS/CustomCommandLauncher";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCommandLauncher/CustomCommandLauncher-Prefix.pch";
+				INFOPLIST_FILE = "CustomCommandLauncherTests/CustomCommandLauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9CB64AF1537078300D12991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CustomCommandLauncher.app/Contents/MacOS/CustomCommandLauncher";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCommandLauncher/CustomCommandLauncher-Prefix.pch";
+				INFOPLIST_FILE = "CustomCommandLauncherTests/CustomCommandLauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9CB646F1537078200D12991 /* Build configuration list for PBXProject "CustomCommandLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CB64A81537078300D12991 /* Debug */,
+				C9CB64A91537078300D12991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CB64AA1537078300D12991 /* Build configuration list for PBXNativeTarget "CustomCommandLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CB64AB1537078300D12991 /* Debug */,
+				C9CB64AC1537078300D12991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9CB64AD1537078300D12991 /* Build configuration list for PBXNativeTarget "CustomCommandLauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CB64AE1537078300D12991 /* Debug */,
+				C9CB64AF1537078300D12991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9CB64911537078300D12991 /* CustomCommandLauncher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9CB64921537078300D12991 /* CustomCommandLauncher.xcdatamodel */,
+			);
+			currentVersion = C9CB64921537078300D12991 /* CustomCommandLauncher.xcdatamodel */;
+			path = CustomCommandLauncher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9CB646C1537078200D12991 /* Project object */;
+}
