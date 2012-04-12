@@ -20,6 +20,15 @@
     // Insert code here to initialize your application
 }
 
+
+-(void)awakeFromNib{
+    statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    [statusItem setMenu:statusMenu];
+    NSImage *menuImage = [NSImage imageNamed:@"menuBarIcon.png"];
+    [statusItem setImage:menuImage];
+    [statusItem setHighlightMode:YES];
+}
+
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "uk.co.mattclements.CustomCommandLauncher" in the user's Application Support directory.
 - (NSURL *)applicationFilesDirectory
 {

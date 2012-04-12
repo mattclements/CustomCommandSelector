@@ -18,6 +18,7 @@
 		C9CB649C1537078300D12991 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CB64791537078300D12991 /* Cocoa.framework */; };
 		C9CB64A41537078300D12991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9CB64A21537078300D12991 /* InfoPlist.strings */; };
 		C9CB64A71537078300D12991 /* CustomCommandLauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CB64A61537078300D12991 /* CustomCommandLauncherTests.m */; };
+		C9CB64B115370B0C00D12991 /* menuBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9CB64B015370B0C00D12991 /* menuBarIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +37,22 @@
 		C9CB647C1537078300D12991 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		C9CB647D1537078300D12991 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		C9CB647E1537078300D12991 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C9CB64811537078300D12991 /* CustomCommandLauncher-Info.plist */ = {isa = PBXFileReference; path = "CustomCommandLauncher-Info.plist"; sourceTree = "<group>"; };
+		C9CB64811537078300D12991 /* CustomCommandLauncher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCommandLauncher-Info.plist"; sourceTree = "<group>"; };
 		C9CB64831537078300D12991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9CB64851537078300D12991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C9CB64871537078300D12991 /* CustomCommandLauncher-Prefix.pch */ = {isa = PBXFileReference; path = "CustomCommandLauncher-Prefix.pch"; sourceTree = "<group>"; };
+		C9CB64871537078300D12991 /* CustomCommandLauncher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCommandLauncher-Prefix.pch"; sourceTree = "<group>"; };
 		C9CB64891537078300D12991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		C9CB648B1537078300D12991 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9CB648B1537078300D12991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9CB648C1537078300D12991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9CB648F1537078300D12991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C9CB64921537078300D12991 /* CustomCommandLauncher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomCommandLauncher.xcdatamodel; sourceTree = "<group>"; };
 		C9CB64991537078300D12991 /* CustomCommandLauncherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCommandLauncherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CB649A1537078300D12991 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C9CB64A11537078300D12991 /* CustomCommandLauncherTests-Info.plist */ = {isa = PBXFileReference; path = "CustomCommandLauncherTests-Info.plist"; sourceTree = "<group>"; };
+		C9CB64A11537078300D12991 /* CustomCommandLauncherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCommandLauncherTests-Info.plist"; sourceTree = "<group>"; };
 		C9CB64A31537078300D12991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C9CB64A51537078300D12991 /* CustomCommandLauncherTests.h */ = {isa = PBXFileReference; path = CustomCommandLauncherTests.h; sourceTree = "<group>"; };
+		C9CB64A51537078300D12991 /* CustomCommandLauncherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCommandLauncherTests.h; sourceTree = "<group>"; };
 		C9CB64A61537078300D12991 /* CustomCommandLauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCommandLauncherTests.m; sourceTree = "<group>"; };
+		C9CB64B015370B0C00D12991 /* menuBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuBarIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		C9CB64801537078300D12991 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C9CB64B015370B0C00D12991 /* menuBarIcon.png */,
 				C9CB64811537078300D12991 /* CustomCommandLauncher-Info.plist */,
 				C9CB64821537078300D12991 /* InfoPlist.strings */,
 				C9CB64851537078300D12991 /* main.m */,
@@ -229,6 +232,7 @@
 				C9CB64841537078300D12991 /* InfoPlist.strings in Resources */,
 				C9CB648A1537078300D12991 /* Credits.rtf in Resources */,
 				C9CB64901537078300D12991 /* MainMenu.xib in Resources */,
+				C9CB64B115370B0C00D12991 /* menuBarIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
