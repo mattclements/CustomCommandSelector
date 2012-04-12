@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C958C96515377B14000DF2E3 /* EditCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C958C96315377B14000DF2E3 /* EditCommand.m */; };
+		C958C96615377B14000DF2E3 /* EditCommand.xib in Resources */ = {isa = PBXBuildFile; fileRef = C958C96415377B14000DF2E3 /* EditCommand.xib */; };
+		C958C96E15378163000DF2E3 /* AddCommand.xib in Resources */ = {isa = PBXBuildFile; fileRef = C958C96B1537807E000DF2E3 /* AddCommand.xib */; };
+		C958C96F1537816E000DF2E3 /* AddCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C958C96A1537807E000DF2E3 /* AddCommand.m */; };
 		C9CB647A1537078300D12991 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CB64791537078300D12991 /* Cocoa.framework */; };
 		C9CB64841537078300D12991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9CB64821537078300D12991 /* InfoPlist.strings */; };
 		C9CB64861537078300D12991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CB64851537078300D12991 /* main.m */; };
@@ -32,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C958C96215377B14000DF2E3 /* EditCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCommand.h; sourceTree = "<group>"; };
+		C958C96315377B14000DF2E3 /* EditCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCommand.m; sourceTree = "<group>"; };
+		C958C96415377B14000DF2E3 /* EditCommand.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditCommand.xib; sourceTree = "<group>"; };
+		C958C9691537807E000DF2E3 /* AddCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCommand.h; sourceTree = "<group>"; };
+		C958C96A1537807E000DF2E3 /* AddCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCommand.m; sourceTree = "<group>"; };
+		C958C96B1537807E000DF2E3 /* AddCommand.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCommand.xib; sourceTree = "<group>"; };
 		C9CB64751537078200D12991 /* CustomCommandLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCommandLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CB64791537078300D12991 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C9CB647C1537078300D12991 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -123,6 +133,12 @@
 				C9CB648E1537078300D12991 /* MainMenu.xib */,
 				C9CB64911537078300D12991 /* CustomCommandLauncher.xcdatamodeld */,
 				C9CB64801537078300D12991 /* Supporting Files */,
+				C958C96215377B14000DF2E3 /* EditCommand.h */,
+				C958C96315377B14000DF2E3 /* EditCommand.m */,
+				C958C96415377B14000DF2E3 /* EditCommand.xib */,
+				C958C9691537807E000DF2E3 /* AddCommand.h */,
+				C958C96A1537807E000DF2E3 /* AddCommand.m */,
+				C958C96B1537807E000DF2E3 /* AddCommand.xib */,
 			);
 			path = CustomCommandLauncher;
 			sourceTree = "<group>";
@@ -233,6 +249,8 @@
 				C9CB648A1537078300D12991 /* Credits.rtf in Resources */,
 				C9CB64901537078300D12991 /* MainMenu.xib in Resources */,
 				C9CB64B115370B0C00D12991 /* menuBarIcon.png in Resources */,
+				C958C96615377B14000DF2E3 /* EditCommand.xib in Resources */,
+				C958C96E15378163000DF2E3 /* AddCommand.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +288,8 @@
 				C9CB64861537078300D12991 /* main.m in Sources */,
 				C9CB648D1537078300D12991 /* AppDelegate.m in Sources */,
 				C9CB64931537078300D12991 /* CustomCommandLauncher.xcdatamodeld in Sources */,
+				C958C96515377B14000DF2E3 /* EditCommand.m in Sources */,
+				C958C96F1537816E000DF2E3 /* AddCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +397,7 @@
 		C9CB64AB1537078300D12991 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomCommandLauncher/CustomCommandLauncher-Prefix.pch";
 				INFOPLIST_FILE = "CustomCommandLauncher/CustomCommandLauncher-Info.plist";
@@ -388,6 +409,7 @@
 		C9CB64AC1537078300D12991 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CustomCommandLauncher/CustomCommandLauncher-Prefix.pch";
 				INFOPLIST_FILE = "CustomCommandLauncher/CustomCommandLauncher-Info.plist";
@@ -443,6 +465,7 @@
 				C9CB64AC1537078300D12991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9CB64AD1537078300D12991 /* Build configuration list for PBXNativeTarget "CustomCommandLauncherTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +474,7 @@
 				C9CB64AF1537078300D12991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

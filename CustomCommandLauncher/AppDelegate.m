@@ -10,10 +10,11 @@
 
 @implementation AppDelegate
 
-@synthesize window = _window;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize managedObjectContext = __managedObjectContext;
+@synthesize editCommand;
+@synthesize addCommand;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -27,6 +28,37 @@
     NSImage *menuImage = [NSImage imageNamed:@"menuBarIcon.png"];
     [statusItem setImage:menuImage];
     [statusItem setHighlightMode:YES];
+}
+
+-(void)openBugs:(id)sender {
+    [[NSWorkspace sharedWorkspace] openURL:
+     [NSURL URLWithString:@"https://github.com/mattclements/CustomCommandSelector/issues"]
+    ];
+}
+
+-(void)openDocumentation:(id)sender {
+    [[NSWorkspace sharedWorkspace] openURL:
+     [NSURL URLWithString:@"https://github.com/mattclements/CustomCommandSelector/wiki"]
+     ];
+}
+
+-(void)addCommand:(id)sender {
+    /*NSLog(@"%@",@"Should have opened Add Command Window");
+    AddCommand *addCommand = [[AddCommand alloc] initWithWindowNibName:@"AddCommand"];
+    NSWindow *addCommandWindow = [addCommand window];
+    [addCommand showWindow:addCommandWindow];*/
+    
+    if(!self.addCommand)
+        self.addCommand = [[AddCommand alloc] initWithWindowNibName:@"AddCommand"];
+    
+    [self.addCommand showWindow:self];
+}
+
+-(void)editCommand:(id)sender {
+    if(!self.editCommand)
+        self.editCommand = [[EditCommand alloc] initWithWindowNibName:@"EditCommand"];
+    
+    [self.editCommand showWindow:self];
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "uk.co.mattclements.CustomCommandLauncher" in the user's Application Support directory.
